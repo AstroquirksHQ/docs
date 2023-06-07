@@ -23,6 +23,10 @@ export default defineConfig({
             text: "Withdraw commission",
             link: "/airdrop/withdraw-commission",
           },
+          {
+            text: "Provision temporary address",
+            link: "/airdrop/send-to-tmp",
+          },
         ],
       },
     ],
