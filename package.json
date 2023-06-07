@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier -l .",
+    "ci": "pnpm run prettier:check"
+  },
+  "dependencies": {
+    "prettier": "^2.8.8",
+    "vitepress": "1.0.0-beta.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^20.2.5"
+  }
+}
