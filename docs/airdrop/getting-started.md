@@ -107,5 +107,6 @@ For the rest of the tutorial, we'll refer this folder as `<airdrop-folder>`.
 <!-- SWAP TO AIRDROP TOKEN -- swap commission to airdrop token -->
 <!---->
 <!-- AIRDROP -- snapshot delagators (done) -- Tranform STARS address to OSMO address <--- NEW -- compute airdrop distribution -- craft tx airdrop -->
+<!-- node dist/addrMatcher.js -f ../airdrops/005_2023-05/stargaze-airdrop.csv -r https://rpc-stargaze-ia.cosmosia.notional.ventures --to osmo -->
 <!---->
 <!-- - - sign & broadcast airdrop tx -->
