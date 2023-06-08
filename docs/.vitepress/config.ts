@@ -27,6 +27,14 @@ export default defineConfig({
             text: "Provision temporary address",
             link: "/airdrop/send-to-tmp",
           },
+          {
+            text: "Swap to airdrop token",
+            link: "/airdrop/swap",
+          },
+          {
+            text: "Snapshot delegators",
+            link: "/airdrop/snapshot-delegators",
+          },
         ],
       },
     ],
