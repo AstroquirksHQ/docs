@@ -13,7 +13,7 @@ TODO: document
 
 3. Fill the inputs with:
     - Message Type: `msgSend`
-    - Send To: `<stargaze-tmp-address>` (see [Prepare temporary address](/docs/prepare-addresses))
+    - Send To: `<stargaze-tmp-address>` (see [Prepare temporary address](/airdrop/prepare-addresses))
     - Amount: `<commission-amount>`
 
 4. Click `Add message`
