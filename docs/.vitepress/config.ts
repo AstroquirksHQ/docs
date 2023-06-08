@@ -35,6 +35,14 @@ export default defineConfig({
             text: "Snapshot delegators",
             link: "/airdrop/snapshot-delegators",
           },
+          {
+            text: "Compute airdrop distribution",
+            link: "/airdrop/compute-distribution",
+          },
+          {
+            text: "Craft airdrop transaction",
+            link: "/airdrop/craft-airdrop-tx",
+          },
         ],
       },
     ],
