@@ -29,11 +29,20 @@ export PYTHONPATH=$PYTHONPATH:$(pwd)
 
 ## Osmosis
 
-::: warning
+Create snapshot:
 
-TODO document
+```bash
+./bin/validatool delegators \
+  --to-csv osmosis-delegators.csv \
+  --osmosis-node https://osmosis-api.polkachu.com
+```
 
-:::
+Copy the `osmosis-delegators.csv` file to `<airdrop-folder>`:
+
+```bash
+# /!\ properly replace folder names:
+cp osmosis-delegators.csv <airdrop-folder>/airdrop-<YYYY-MM>
+```
 
 ## Stargaze
 

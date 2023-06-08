@@ -2,20 +2,39 @@
 
 ## Osmosis
 
-::: warning
+Generate the airdrop distribution file:
 
-TODO document
+```bash
+# /!\ properly replace <amount-to-airdrop> based on the **token** to airdrop
+./bin/validatool airdrop \
+  --from-csv osmosis-delegators.csv \
+  --amount <amount-to-airdrop> \
+  --min 50000000 \
+  --remove-superfluid \
+  --osmosis-node https://lcd.osmosis.zone:443 \
+  --to-csv osmosis-airdrop.csv
+```
+
+::: warning IMPORTANT
+
+Open the file `osmosis-airdrop.csv` and :bomb: nuke all the weird addresses (the long
+interchain ones)
 
 :::
+
+Copy the `osmosis-airdrop.csv` file to `<airdrop-folder>`:
+
+```bash
+# /!\ properly replace folder names:
+cp osmosis-airdrop.csv <airdrop-folder>/airdrop-<YYYY-MM>
+```
 
 ## Stargaze
 
 Generate the airdrop distribution file:
 
 ```bash
-# /!\ properly replace <amount-to-airdrop>
-#     hint: STARS has a magnitude of 6
-#           so 3000 STARS === 3000000000 for --amount option
+# /!\ properly replace <amount-to-airdrop> based on the **token** to airdrop
 ./bin/validatool airdrop \
   --from-csv stargaze-delegators.csv \
   --amount <amount-to-airdrop> \
@@ -27,7 +46,7 @@ Generate the airdrop distribution file:
 
 ::: warning IMPORTANT
 
-Open the file `stargaze-delegators.csv` and :bomb: nuke all the weird addresses (the long
+Open the file `stargaze-airdrop.csv` and :bomb: nuke all the weird addresses (the long
 interchain ones)
 
 :::

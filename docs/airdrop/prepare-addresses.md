@@ -107,7 +107,7 @@ bracket civil mass hollow ... # << paste the seed and press Enter
 
 It should output something like this:
 
-```text {3}
+```txt {3}
 - name: astroquirks_tmp_address_6
   type: local
   address: osmo13scqsye2dlgfdquz0ljqusppc3kluxjv9qp0cq

@@ -2,9 +2,12 @@
 
 ## Osmosis
 
-::: warning
+1. Go to https://app.osmosis.zone
+2. Swap `OSMO` to the token we want to airdrop, use max amount rounded
 
-TODO document
+::: details See screenshot
+
+![swap osmo](/img/swap-osmo.jpg)
 
 :::
 
@@ -34,8 +37,5 @@ This part is relevant only if we want to drop other token than `STARS`, obviousl
 
 :::
 
-::: warning
-
-TODO document
-
-:::
+Do the same swap as described in [Osmosis swap](/airdrop/swap#osmosis), but using `STARS` as the
+swapped token.
