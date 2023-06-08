@@ -2,7 +2,11 @@
 
 ## Osmosis
 
+::: warning
+
 TODO document
+
+:::
 
 ## Stargaze
 
@@ -30,4 +34,8 @@ This part is relevant only if we want to drop other token than `STARS`, obviousl
 
 :::
 
+::: warning
+
 TODO document
+
+:::

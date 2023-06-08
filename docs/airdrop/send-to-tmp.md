@@ -2,7 +2,11 @@
 
 ## Osmosis
 
-TODO: document
+::: warning
+
+TODO document
+
+:::
 
 ## Stargaze
 
