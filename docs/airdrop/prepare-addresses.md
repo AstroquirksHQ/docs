@@ -85,12 +85,41 @@ Save the Osmosis address:
 echo "osmo13sc...qp0cq" > ./osmosis-tmp-address
 ```
 
-Save the Stargaze address:
+## Create local Osmosis wallet
+
+Because we'll sign & broadcast the final airdrop txs locally (on Osmosis network),
+we need to have the wallet created locally as well.
 
 ```bash
-# from the <airdrop-folder>
-echo "stars13s...89z9r" > ./stargaze-tmp-address
+# use name `astroquirks_tmp_address_<n>` where `<n>` is the #nth airdrop
+osmosisd keys add astroquirks_tmp_address_4 --interactive
 ```
+
+It will ask for the seed & passphrase:
+
+```bash
+> Enter your bip39 mnemonic, or hit enter to generate one.
+bracket civil mass hollow ... # << paste the seed and press Enter
+
+> Enter your bip39 passphrase. This is combined with the mnemonic to derive the seed. Most users should just hit enter to use the default, ""
+# << just press Enter
+```
+
+It should output something like this:
+
+```text {3}
+- name: astroquirks_tmp_address_6
+  type: local
+  address: osmo13scqsye2dlgfdquz0ljqusppc3kluxjv9qp0cq
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AhgERt5hjAWvsh+IqMeXSjH+xmxeLb+S6Pbjg0LIV2tI"}'
+  mnemonic: ""
+```
+
+::: info
+
+Here, verify that the `address` match the address created on Keplr
+
+:::
 
 ## Send funds to addresses
 

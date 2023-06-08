@@ -43,6 +43,10 @@ export default defineConfig({
             text: "Craft airdrop transaction",
             link: "/airdrop/craft-airdrop-tx",
           },
+          {
+            text: "Sign & broadcast airdrop",
+            link: "/airdrop/sign-and-broadcast",
+          },
         ],
       },
     ],
